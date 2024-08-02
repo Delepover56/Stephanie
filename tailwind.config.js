@@ -15,7 +15,7 @@ module.exports = {
         "max-1200": { max: "1200px" },
         "max-992": { max: "992px" },
         "max-768": { max: "768px" },
-        "max-322": { max: "322px" },
+        "max-427": { max: "427" },
       },
     },
   },
