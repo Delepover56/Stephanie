@@ -1209,6 +1209,14 @@ video {
   .max-1600\:top-\[-100px\] {
     top: -100px;
   }
+
+  .max-1600\:me-\[100px\] {
+    margin-inline-end: 100px;
+  }
+
+  .max-1600\:me-\[150px\] {
+    margin-inline-end: 150px;
+  }
 }
 
 @media (max-width: 1440px) {
