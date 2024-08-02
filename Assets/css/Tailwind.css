@@ -700,6 +700,10 @@ video {
   height: 100%;
 }
 
+.h-\[auto\] {
+  height: auto;
+}
+
 .w-\[1079px\] {
   width: 1079px;
 }
@@ -833,6 +837,11 @@ video {
 .border-\[\#C6A387\] {
   --tw-border-opacity: 1;
   border-color: rgb(198 163 135 / var(--tw-border-opacity));
+}
+
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-\[\#EDDBD3\] {
@@ -1122,6 +1131,124 @@ video {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media (min-width: 1280px) {
+  .xl\:left-\[1000px\] {
+    left: 1000px;
+  }
+
+  .xl\:right-\[-600px\] {
+    right: -600px;
+  }
+
+  .xl\:top-\[60\%\] {
+    top: 60%;
+  }
+}
+
+@media (max-width: 1922px) {
+  .max-1922\:left-\[500px\] {
+    left: 500px;
+  }
+
+  .max-1922\:left-\[80\%\] {
+    left: 80%;
+  }
+
+  .max-1922\:left-\[\] {
+    left: ;
+  }
+
+  .max-1922\:left-\[800px\] {
+    left: 800px;
+  }
+
+  .max-1922\:left-\[100\%\] {
+    left: 100%;
+  }
+
+  .max-1922\:left-\[1000px\] {
+    left: 1000px;
+  }
+
+  .max-1922\:left-\[20\%\] {
+    left: 20%;
+  }
+
+  .max-1922\:top-\[200px\] {
+    top: 200px;
+  }
+
+  .max-1922\:top-\[600px\] {
+    top: 600px;
+  }
+
+  .max-1922\:top-\[60\%\] {
+    top: 60%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .max-1600\:left-auto {
+    left: auto;
+  }
+
+  .max-1600\:right-\[-600px\] {
+    right: -600px;
+  }
+
+  .max-1600\:bottom-auto {
+    bottom: auto;
+  }
+
+  .max-1600\:left-\[188px\] {
+    left: 188px;
+  }
+
+  .max-1600\:top-\[-100px\] {
+    top: -100px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .max-1440\:left-\[50\%\] {
+    left: 50%;
+  }
+
+  .max-1440\:left-auto {
+    left: auto;
+  }
+
+  .max-1440\:right-\[-600px\] {
+    right: -600px;
+  }
+
+  .max-1440\:left-\[5\%\] {
+    left: 5%;
+  }
+
+  .max-1440\:me-\[100px\] {
+    margin-inline-end: 100px;
+  }
+
+  .max-1440\:w-\[341px\] {
+    width: 341px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .max-1200\:left-\[50\%\] {
+    left: 50%;
+  }
+
+  .max-1200\:left-auto {
+    left: auto;
+  }
+
+  .max-1200\:right-\[-600px\] {
+    right: -600px;
+  }
 }
 
 @media (max-width: 768px) {
