@@ -1181,3 +1181,164 @@ video {
     padding: 50px;
   }
 }
+
+@media (max-width: 427px) {
+  .max-427\:bottom-\[-240px\] {
+    bottom: -240px;
+  }
+
+  .max-427\:bottom-\[-340px\] {
+    bottom: -340px;
+  }
+
+  .max-427\:left-\[10\%\] {
+    left: 10%;
+  }
+
+  .max-427\:left-\[11\%\] {
+    left: 11%;
+  }
+
+  .max-427\:right-auto {
+    right: auto;
+  }
+
+  .max-427\:top-\[-260px\] {
+    top: -260px;
+  }
+
+  .max-427\:top-auto {
+    top: auto;
+  }
+
+  .max-427\:m-\[auto\] {
+    margin: auto;
+  }
+
+  .max-427\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .max-427\:mb-\[15px\] {
+    margin-bottom: 15px;
+  }
+
+  .max-427\:mb-\[180px\] {
+    margin-bottom: 180px;
+  }
+
+  .max-427\:me-\[20px\] {
+    margin-inline-end: 20px;
+  }
+
+  .max-427\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .max-427\:mt-\[10px\] {
+    margin-top: 10px;
+  }
+
+  .max-427\:mt-\[200px\] {
+    margin-top: 200px;
+  }
+
+  .max-427\:flex {
+    display: flex;
+  }
+
+  .max-427\:h-\[100px\] {
+    height: 100px;
+  }
+
+  .max-427\:h-\[250px\] {
+    height: 250px;
+  }
+
+  .max-427\:h-\[25px\] {
+    height: 25px;
+  }
+
+  .max-427\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .max-427\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .max-427\:w-\[250px\] {
+    width: 250px;
+  }
+
+  .max-427\:w-\[25px\] {
+    width: 25px;
+  }
+
+  .max-427\:w-\[270px\] {
+    width: 270px;
+  }
+
+  .max-427\:w-full {
+    width: 100%;
+  }
+
+  .max-427\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-427\:items-center {
+    align-items: center;
+  }
+
+  .max-427\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .max-427\:justify-center {
+    justify-content: center;
+  }
+
+  .max-427\:px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .max-427\:px-\[50px\] {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .max-427\:py-\[50px\] {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .max-427\:text-\[12px\] {
+    font-size: 12px;
+  }
+
+  .max-427\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .max-427\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .max-427\:text-\[22px\] {
+    font-size: 22px;
+  }
+
+  .max-427\:font-bold {
+    font-weight: 700;
+  }
+
+  .max-427\:leading-\[25px\] {
+    line-height: 25px;
+  }
+
+  .max-427\:leading-\[30px\] {
+    line-height: 30px;
+  }
+}
