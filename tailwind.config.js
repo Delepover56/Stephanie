@@ -12,7 +12,10 @@ module.exports = {
         "custom-peach": "22px -21px 0px -2px #FBF2EE",
       },
       screens: {
-        xl2: "1800px",
+        "max-1200": { max: "1200px" },
+        "max-992": { max: "992px" },
+        "max-768": { max: "768px" },
+        "max-322": { max: "322px" },
       },
     },
   },

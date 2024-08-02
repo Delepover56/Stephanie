@@ -92,3 +92,23 @@
     font-weight: 900;
     font-style: normal;
 }
+
+@layer utilities {
+    @media (max-width: 1200px) {
+        .max-w-1200 {
+            max-width: 1200px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .max-w-992 {
+            max-width: 992px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .max-w-768 {
+            max-width: 768px;
+        }
+    }
+}

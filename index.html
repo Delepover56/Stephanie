@@ -6,11 +6,16 @@
     <title>Stephanie | Chandler ODOM</title>
     <link rel="stylesheet" href="Assets/css/Tailwind.css" />
   </head>
+
   <body class="max-w-[100vw] w-screen overflow-x-hidden">
-    <header class="w-screen bg-[rgb(251,242,238)] h-[50px]">
-      <nav class="w-full h-full flex justify-end items-center">
-        <ul class="w-[150px] flex justify-between items-center me-[200px]">
-          <li>
+    <header class="w-screen bg-[rgb(251,242,238)] h-[50px] max-322:">
+      <nav
+        class="w-full h-full flex justify-end items-center max-322:justify-end"
+      >
+        <ul
+          class="w-max flex justify-center items-center me-[80px] max-322:me-[20px]"
+        >
+          <li class="mx-[10px]">
             <svg
               width="26"
               height="17"
@@ -24,7 +29,7 @@
               />
             </svg>
           </li>
-          <li>
+          <li class="mx-[10px]">
             <svg
               width="24"
               height="24"
@@ -38,7 +43,7 @@
               />
             </svg>
           </li>
-          <li>
+          <li class="mx-[10px]">
             <svg
               width="22"
               height="22"
@@ -58,8 +63,8 @@
       </nav>
     </header>
 
-    <main class="flow-root">
-      <div class="w-[80%] xl2:w-full h-auto relative">
+    <main class="flow-root max-w-[100vw] w-screen overflow-x-hidden">
+      <div class="w-[80%] h-auto relative">
         <svg
           width="1211"
           height="2001"
@@ -90,40 +95,53 @@
           />
         </svg>
       </div>
-      <section id="about" class="w-[545px] mt-[100px] ms-[150px]">
-        <div class="w-full h-auto">
+      <section
+        id="about"
+        class="relative w-[545px] mt-[100px] ms-[150px] max-768:w-full max-768:m-0 max-768:mb-[400px] max-322:mb-[180px]"
+      >
+        <div
+          class="w-full h-auto max-768:flex max-768:justify-center max-768:items-center max-768:flex-col max-768:flex-wrap max-768:p-[50px]"
+        >
           <img
             src="Assets/images/Logo.png"
             alt="Our logo"
-            class="w-[247px] h-[151px mb-[25px]"
+            class="w-[247px] mb-[25px] max-768:w-[247px] max-768:h-[247px] max-322:w-[100%] max-322:h-[100px]"
           />
+
           <p
-            class="font-italia font-normal text-[40px] leading-[55.2px] mt-[25px]"
+            class="font-italia font-normal text-[40px] text-[400] leading-[55.2px] mt-[25px] max-322:text-[22px] max-322:leading-[30px] max-322:font-bold"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt
           </p>
 
-          <div class="w-full h-auto mt-[30px] mb-[50px]">
+          <div
+            class="w-full h-auto mt-[30px] mb-[50px] max-768:flex max-768:justify-start max-768:items-start"
+          >
             <button
-              class="py-[12px] px-[20px] bg-[#EDDBD3] rounded-md ml-[110px] font-manrope text-[18px] text-black"
+              class="py-[12px] px-[20px] transition-all duration-[0.3s] hover:bg-black hover:text-[#EDDBD3] bg-[#EDDBD3] rounded-md ml-[110px] font-manrope text-[18px] max-768:ml-0 text-black max-322:text-[12px]"
             >
               Read More
             </button>
           </div>
+
+          <div
+            class="absolute w-[402px] right-[-600px] top-[55%] transform translate-y-[-50%] rounded-[10px] shadow-custom-peach max-322:w-[250px] max-322:h-[250px] max-322:left-[10%] max-322:bottom-[-340px] max-322:top-auto max-322:right-auto overflow-hidden"
+          >
+            <img
+              src="./Assets/images/hero.webp"
+              alt="Steph_Party_Photo"
+              class="w-full h-full object-cover object-top"
+            />
+          </div>
         </div>
-        <img
-          src="./Assets/images/hero.webp"
-          alt="Steph_Party_Photo"
-          class="w-[402px] h-[523px] absolute rounded-[10px] top-[150px] left-[820px] shadow-custom-peach"
-        />
       </section>
 
       <section
-        class="w-screen h-[436px] bg-[#FBF2EE] z-[-9999] flex justify-center items-center relative"
+        class="w-screen h-[436px] bg-[#FBF2EE] z-[-9999] flex justify-center items-center relative max-322:py-[50px] max-322:px-[20px]"
       >
         <p
-          class="text-center w-[926px] h-[120px] font-poppins font-[400] text-[20px] text-[#C6A387]"
+          class="text-center w-[926px] h-auto font-poppins font-[400] text-[20px] text-[#C6A387] max-322:text-[14px]"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -134,16 +152,23 @@
         </p>
       </section>
       <section
-        class="relative w-full h-[475px] flex flex-col justify-start items-end"
+        class="relative w-full h-[475px] flex justify-end items-center max-322:mt-[200px]"
       >
-        <img
-          src="./Assets/images/Steph.webp"
-          alt="Steph_Party_Photo"
-          class="w-[441px] h-[573px] absolute rounded-[2px] top-[-100px] left-[188px]"
-        />
-        <div>
+        <div
+          class="w-[441px] h-[573px] absolute rounded-[2px] top-[-100px] left-[188px] max-322:w-[250px] max-322:h-[250px] max-322:top-[-260px] max-322:left-[11%] max-322:bottom-[-240px]"
+        >
+          <img
+            src="./Assets/images/Steph.webp"
+            alt="Steph_Party_Photo"
+            class="w-full h-full object-cover object-top"
+          />
+        </div>
+
+        <div
+          class="w-[606px] h-full me-[300px] max-322:m-[auto] flex flex-col justify-center items-center max-322:justify-center max-322:px-[50px]"
+        >
           <p
-            class="w-[606px] h-[180px] font-poppins font-[400] text-[20px] me-[300px] mt-[65px] mb-[50px] leading-[30px] text-[#C6A387]"
+            class="w-full leading-[30px] font-poppins font-[400] text-[20px] text-[#C6A387] text-center max-322:text-[14px] max-322:leading-[25px] max-322:mb-[15px]"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -153,21 +178,26 @@
             pariatur.
           </p>
           <button
-            class="py-[12px] px-[20px] bg-[#EDDBD3] rounded-[10px] ms-[50px] font-manrope text-[18px] text-black"
+            class="mt-[20px] py-[12px] px-[20px] bg-[#EDDBD3] rounded-[10px] font-manrope text-[18px] text-black transition-all duration-[0.3s] hover:bg-black hover:text-[#EDDBD3] max-322:mt-[10px] max-322:text-[12px]"
           >
             Read More
           </button>
         </div>
       </section>
+
       <section
-        class="w-screen bg-[#FBF2EE] flex flex-col justify-center items-center px-[50px] pt-[50px] mt-[60px]"
+        class="w-screen bg-[#FBF2EE] flex flex-col justify-center items-center mt-[60px] max-322:mt-0"
       >
-        <div class="w-full flex flex-col justify-center items-center">
-          <h1 class="font-italia text-[40px]">
+        <div
+          class="w-full flex flex-col justify-center items-center pt-[50px] max-322:px-[20px]"
+        >
+          <h1
+            class="font-italia text-[40px] text-center max-322:text-[20px] max-322:font-bold"
+          >
             Let your Readers Sign Up to the Email List`
           </h1>
           <p
-            class="font-poppins font-[400] text-[20px] text-[#C6A387] w-[1079px] text-center mt-[20px]"
+            class="font-poppins font-[400] text-[20px] text-[#C6A387] w-[1079px] text-center mt-[20px] max-322:w-full max-322:text-[12px]"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -177,42 +207,50 @@
         <form
           action="#"
           method="get"
-          class="my-[40px] flex flex-col items-center justify-center"
+          class="my-[40px] flex flex-col items-center justify-center max-322:w-full"
         >
-          <div>
+          <div
+            class="max-322:flex max-322:flex-col max-322:justify-center max-322:items-center max-322:w-full"
+          >
             <input
               type="text"
               name="name"
               id="name"
               placeholder="NAME"
-              class="w-[274px] h-[38px] p-[10px] m-[10px] bg-transparent border border-[#C6A387] rounded-[10px] focus:outline-none focus:border-[#C6A387]"
+              class="w-[274px] h-[38px] p-[10px] m-[10px] bg-transparent border border-[#C6A387] rounded-[10px] focus:outline-none focus:border-[#C6A387] max-322:w-[270px]"
             />
             <input
               type="text"
               name="email"
               id="email"
               placeholder="EMAIL"
-              class="w-[379px] h-[38px] p-[10px] m-[10px] bg-transparent border border-[#C6A387] rounded-[10px] focus:outline-none focus:border-[#C6A387]"
+              class="w-[379px] h-[38px] p-[10px] m-[10px] bg-transparent border border-[#C6A387] rounded-[10px] focus:outline-none focus:border-[#C6A387] max-322:w-[270px]"
             />
           </div>
-          <div>
+          <div
+            class="max-322:flex max-322:flex-col max-322:justify-center max-322:items-center max-322:w-full"
+          >
             <textarea
               name="message"
               id="message"
               placeholder="MESSAGE"
-              class="w-[674px] h-[212px] p-[10px] m-[10px] bg-transparent border border-[#C6A387] rounded-[10px] focus:outline-none focus:border-[#C6A387]"
+              class="w-[674px] h-[212px] p-[10px] m-[10px] bg-transparent border border-[#C6A387] rounded-[10px] focus:outline-none focus:border-[#C6A387] max-322:w-[270px]"
             ></textarea>
           </div>
-          <div class="flex justify-start items-start border-200 w-full">
+          <div
+            class="flex justify-start items-start border-200 w-full max-322:flex max-322:flex-col max-322:justify-center max-322:items-center max-322:w-full"
+          >
             <button
-              class="font-manrope font-[400] text-[18px] text-black bg-[#EDDBD3] w-[136px] h-[49px] m-[23px] py-[12px] px-[20px] rounded-[10px]"
+              class="font-manrope font-[400] text-[18px] text-black bg-[#EDDBD3] w-[136px] h-[49px] m-[23px] py-[12px] px-[20px] rounded-[10px] max-322:mb-0"
             >
               Submit
             </button>
           </div>
         </form>
       </section>
-      <section class="flex justify-center items-center flex-col py-[100px]">
+      <section
+        class="flex justify-center items-center flex-col py-[100px] max-322:w-full"
+      >
         <div>
           <h1 class="font-poppins font-[400] text-[30px] tracking-[6%]">
             FOLLOW ME
@@ -225,6 +263,7 @@
                 viewBox="0 0 33 33"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                class="max-322:w-[25px] max-322:h-[25px]"
               >
                 <g clip-path="url(#clip0_4017_96)">
                   <path
@@ -253,6 +292,7 @@
                 viewBox="0 0 34 33"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                class="max-322:w-[25px] max-322:h-[25px]"
               >
                 <g clip-path="url(#clip0_4017_98)">
                   <path
@@ -281,22 +321,23 @@
                 viewBox="0 0 34 33"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                class="max-322:w-[25px] max-322:h-[25px]"
               >
-                <g clip-path="url(#clip0_4017_98)">
+                <g clip-path="url(#clip0_4017_101)">
                   <path
                     fill-rule="evenodd"
                     clip-rule="evenodd"
-                    d="M29.4589 0.314941H5.15248C2.85065 0.314941 0.963226 2.20257 0.963226 4.50413V28.8106C0.963226 31.1122 2.85065 32.9999 5.15248 32.9999H29.4589C31.761 32.9999 33.6482 31.1122 33.6482 28.8107V4.50413C33.6482 2.20257 31.761 0.314941 29.4589 0.314941ZM12.1987 16.0999V26.1905H7.77259V16.8527V13.457H12.1987V16.0999ZM9.97678 11.5591C8.74545 11.5591 7.74631 10.5607 7.74631 9.32864C7.74631 8.09634 8.74545 7.09918 9.97678 7.09918C11.2098 7.09918 12.208 8.09641 12.208 9.32864C12.208 10.5607 11.2099 11.5591 9.97678 11.5591ZM26.8388 19.245V26.1905H23.0256V20.0054C23.0256 18.5243 22.8652 16.6195 20.8354 16.6195C18.7748 16.6195 18.4633 18.2319 18.4633 19.8986V26.1905H14.7862V15.9166V13.457H18.3271V15.1594H18.3648C18.893 14.206 20.1868 13.4557 22.1135 13.4557C25.3596 13.4557 26.4627 14.9907 26.7646 17.3923C26.8362 17.9559 26.8639 18.564 26.8639 19.245H26.8388Z"
+                    d="M29.5753 0.314941C31.7793 0.314941 33.5686 2.10432 33.5686 4.30825V29.0066C33.5686 31.2105 31.7792 32.9999 29.5753 32.9999H4.87694C2.673 32.9999 0.883629 31.2105 0.883629 29.0066V4.30825C0.883629 2.10432 2.67294 0.314941 4.87694 0.314941L29.5753 0.314941ZM17.2261 5.4858C14.1921 5.4858 13.8116 5.49864 12.6201 5.55303C11.431 5.60729 10.6189 5.79612 9.90825 6.07235C9.17361 6.35783 8.55061 6.73983 7.92954 7.36085C7.30846 7.98193 6.92645 8.60498 6.64097 9.33957C6.36481 10.0502 6.17597 10.8623 6.12165 12.0514C6.06732 13.2429 6.05449 13.6234 6.05449 16.6574C6.05449 19.6914 6.06732 20.0719 6.12165 21.2634C6.17597 22.4526 6.36481 23.2646 6.64097 23.9753C6.92645 24.7099 7.30846 25.3329 7.92954 25.954C8.55061 26.5751 9.17361 26.9571 9.90825 27.2426C10.6189 27.5187 11.431 27.7076 12.6201 27.7618C13.8116 27.8162 14.1921 27.829 17.2261 27.829C20.2601 27.829 20.6406 27.8162 21.8321 27.7618C23.0212 27.7076 23.8333 27.5187 24.544 27.2426C25.2785 26.9571 25.9016 26.5751 26.5227 25.954C27.1438 25.3329 27.5258 24.7099 27.8112 23.9753C28.0874 23.2646 28.2762 22.4526 28.3305 21.2634C28.3849 20.0719 28.3977 19.6914 28.3977 16.6574C28.3977 13.6234 28.3849 13.2429 28.3305 12.0514C28.2762 10.8623 28.0874 10.0502 27.8112 9.33957C27.5258 8.60498 27.1438 7.98193 26.5227 7.36085C25.9016 6.73983 25.2785 6.35783 24.544 6.07235C23.8333 5.79612 23.0212 5.60729 21.8321 5.55303C20.6406 5.49864 20.2601 5.4858 17.2261 5.4858ZM17.2261 7.49874C20.2091 7.49874 20.5624 7.5101 21.7404 7.56385C22.8296 7.61358 23.4211 7.79558 23.8148 7.94848C24.3363 8.15116 24.7084 8.3933 25.0994 8.78418C25.4903 9.17512 25.7324 9.54729 25.9351 10.0687C26.088 10.4624 26.27 11.0539 26.3197 12.1431C26.3734 13.3211 26.3849 13.6745 26.3849 16.6574C26.3849 19.6404 26.3734 19.9937 26.3197 21.1717C26.27 22.2609 26.088 22.8524 25.9351 23.2461C25.7324 23.7676 25.4903 24.1397 25.0994 24.5307C24.7084 24.9216 24.3363 25.1637 23.8148 25.3664C23.4211 25.5193 22.8296 25.7013 21.7404 25.751C20.5626 25.8047 20.2092 25.8162 17.2261 25.8162C14.243 25.8162 13.8897 25.8047 12.7118 25.751C11.6226 25.7013 11.0311 25.5193 10.6374 25.3664C10.1159 25.1637 9.74381 24.9216 9.35286 24.5307C8.96192 24.1397 8.71978 23.7676 8.51716 23.2461C8.36421 22.8524 8.18221 22.2609 8.13248 21.1717C8.07872 19.9937 8.06736 19.6404 8.06736 16.6574C8.06736 13.6745 8.07872 13.3211 8.13248 12.1431C8.18221 11.0539 8.36421 10.4624 8.51716 10.0687C8.71978 9.54729 8.96192 9.17512 9.35286 8.78418C9.74381 8.3933 10.1159 8.15116 10.6374 7.94848C11.0311 7.79558 11.6226 7.61358 12.7118 7.56385C13.8898 7.5101 14.2432 7.49874 17.2261 7.49874ZM17.2261 10.9206C14.0578 10.9206 11.4893 13.4891 11.4893 16.6574C11.4893 19.8258 14.0578 22.3942 17.2261 22.3942C20.3944 22.3942 22.9629 19.8258 22.9629 16.6574C22.9629 13.4891 20.3944 10.9206 17.2261 10.9206ZM17.2261 20.3813C15.1694 20.3813 13.5023 18.7141 13.5023 16.6574C13.5023 14.6008 15.1694 12.9336 17.2261 12.9336C19.2828 12.9336 20.95 14.6008 20.95 16.6574C20.95 18.7141 19.2828 20.3813 17.2261 20.3813ZM24.5302 10.694C24.5302 11.4344 23.9299 12.0345 23.1895 12.0345C22.4492 12.0345 21.849 11.4344 21.849 10.694C21.849 9.95362 22.4492 9.35342 23.1895 9.35342C23.9299 9.35342 24.5302 9.95362 24.5302 10.694Z"
                     fill="black"
                   />
                 </g>
                 <defs>
-                  <clipPath id="clip0_4017_98">
+                  <clipPath id="clip0_4017_101">
                     <rect
                       width="32.685"
                       height="32.685"
                       fill="white"
-                      transform="translate(0.963226 0.314941)"
+                      transform="translate(0.883629 0.314941)"
                     />
                   </clipPath>
                 </defs>
@@ -305,14 +346,23 @@
           </div>
         </div>
       </section>
+
       <footer
-        class="flex flex-col h-[400px] gap-[10px] justify-center items-center bg-[#FBF2EE]"
+        class="flex flex-col h-auto py-[50px] gap-[10px] justify-center items-center bg-[#FBF2EE] border border-red-500 max-322:w-full"
       >
         <div>
-          <img class="w-[300px]" src="Assets/images/Logo.png" alt="" />
+          <img
+            class="w-[300px] max-322:w-[200px]"
+            src="Assets/images/Logo.png"
+            alt=""
+          />
         </div>
-        <div class="font-poppins text-[20px] text-center text-[#C6A387]">
-          <p>Copyright. Stephanie Chandler Odom. 2024</p>
+        <div>
+          <p
+            class="text-[#C6A387] font-poppins text-[20px] text-center max-322:w-full max-322:text-[12px]"
+          >
+            Copyright. Stephanie Chandler Odom. 2024
+          </p>
         </div>
       </footer>
     </main>
